@@ -3,6 +3,5 @@ from . import views
 
 urlpatterns=[
     path ('', views.index, name= 'index'),
-    path ('notfound', views.notfound, name= 'notfound'),
-       
+    path ('notfound', views.notfound, name= 'notfound'),   
 ]
